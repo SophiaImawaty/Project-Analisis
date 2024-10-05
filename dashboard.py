@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 
 # Load Data
-day_df = pd.read_csv('/content/drive/MyDrive/Bike-sharing-dataset/day.csv')
+day_df = pd.read_csv('day.csv')
 hour_df = pd.read_csv('/content/drive/MyDrive/Bike-sharing-dataset/hour.csv')
 
 # Clean Data (implement your cleaning steps here)
