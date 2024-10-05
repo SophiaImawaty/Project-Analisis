@@ -4,8 +4,8 @@ import seaborn as sns
 import streamlit as st
 
 # Load Data
-day_df = pd.read_csv('day.csv')
-hour_df = pd.read_csv('hour.csv')
+day_df = pd.read_csv('https://raw.githubusercontent.com/SophiaImawaty/Project-Analisis/main/day.csv')
+hour_df = pd.read_csv('https://raw.githubusercontent.com/SophiaImawaty/Project-Analisis/main/hour.csv')
 
 # Clean Data (implement your cleaning steps here)
 
